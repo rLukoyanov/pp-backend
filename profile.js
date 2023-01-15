@@ -82,6 +82,16 @@ const achievements = [
     content:
       "Диплом призера муниципального этапа всероссийской олимпида школьников по оществознанию среди 8 классов 2019 года.",
   },
+  {
+    img: "",
+    content:
+      "Диплом призера муниципального этапа всероссийской олимпида школьников по оществознанию среди 8 классов 2019 года.",
+  },
+  {
+    img: "",
+    content:
+      "Диплом призера муниципального этапа всероссийской олимпида школьников по оществознанию среди 8 классов 2019 года.",
+  },
 ];
 
 exports.sendProfile = (req, res) => {
@@ -90,4 +100,8 @@ exports.sendProfile = (req, res) => {
 
 exports.sendWorkExp = (req, res) => {
   res.send(workExpireance);
+};
+
+exports.sendAchieves = (req, res) => {
+  res.send(achievements);
 };
